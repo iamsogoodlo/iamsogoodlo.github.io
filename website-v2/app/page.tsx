@@ -76,6 +76,21 @@ export default function Home() {
             hi! i&apos;m <span className="font-semibold">bryan</span> 👋
           </motion.h1>
 
+          {/* Profile Image */}
+          <motion.div
+            variants={fadeInUp}
+            className="mt-2 mb-8"
+          >
+            <div className="relative w-32 h-32 overflow-hidden rounded-lg">
+              <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 animate-pulse" />
+              <img
+                src="/profile.png"
+                alt="Bryan Liu"
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+              />
+            </div>
+          </motion.div>
+
           <motion.div variants={fadeInUp} className="space-y-4 text-muted leading-relaxed">
             <p>
               incoming undergraduate mathematics student at{" "}
@@ -88,9 +103,9 @@ export default function Home() {
               particularly the dynamics of{" "}
               <span className="text-foreground">byzantine agents</span> and{" "}
               <span className="text-foreground">contagion</span> in multi-agent systems—
-              understanding how misinformation and adversarial behaviors spread
-              among agents and designing robust alignment mechanisms that remain
-              stable even when some agents are faulty or malicious.
+              understanding how misinformation spreads
+              with the broader goal of making these systems safer and more robust
+              to failures, attacks, and emergent risks.
             </p>
 
             <p>
@@ -108,21 +123,6 @@ export default function Home() {
               <span className="text-foreground">claymoo</span>, and enjoy exploring
               the intersection of ml systems and quantitative methods.
             </p>
-          </motion.div>
-
-          {/* Profile Image */}
-          <motion.div
-            variants={fadeInUp}
-            className="mt-10 mb-12"
-          >
-            <div className="relative w-40 h-40 overflow-hidden rounded-lg">
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 animate-pulse" />
-              <img
-                src="/profile.png"
-                alt="Bryan Liu"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-              />
-            </div>
           </motion.div>
 
           {/* Social Links */}
