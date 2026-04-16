@@ -79,7 +79,7 @@ export default function Home() {
           <motion.div variants={fadeInUp} className="space-y-4 text-muted leading-relaxed">
             <p>
               incoming undergraduate mathematics student at{" "}
-              <span className="text-foreground">utsg</span>.
+              <span className="text-foreground">university of toronto</span>.
             </p>
 
             <p>
@@ -155,7 +155,7 @@ export default function Home() {
             >
               <Mail className="w-5 h-5" />
             </a>
-            <span className="text-muted text-sm">bryanliu [at] cs.toronto.edu</span>
+            <span className="text-muted text-sm">bryan [at] cs [dot] toronto [dot] edu</span>
           </motion.div>
         </motion.div>
       </section>
