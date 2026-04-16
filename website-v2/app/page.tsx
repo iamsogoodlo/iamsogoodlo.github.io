@@ -86,7 +86,7 @@ export default function Home() {
               <img
                 src="/profile.png"
                 alt="Bryan Liu"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-full object-cover transition-all duration-500"
               />
             </div>
           </motion.div>
@@ -128,7 +128,7 @@ export default function Home() {
           {/* Social Links */}
           <motion.div
             variants={fadeInUp}
-            className="flex items-center gap-5"
+            className="flex items-center gap-5 mt-10"
           >
             <a
               href="https://github.com/iamsogoodlo"
