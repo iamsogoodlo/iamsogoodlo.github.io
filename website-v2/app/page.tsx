@@ -82,11 +82,10 @@ export default function Home() {
             className="mt-2 mb-8"
           >
             <div className="relative w-32 h-32 overflow-hidden rounded-lg">
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 animate-pulse" />
               <img
                 src="/profile.png"
                 alt="Bryan Liu"
-                className="w-full h-full object-cover transition-all duration-500"
+                className="w-full h-full object-cover"
               />
             </div>
           </motion.div>
@@ -98,7 +97,7 @@ export default function Home() {
             </p>
 
             <p>
-              my research focuses on{" "}
+              my research interests lie in{" "}
               <em className="text-foreground not-italic">multi-agent alignment</em>,
               particularly the dynamics of{" "}
               <span className="text-foreground">byzantine agents</span> and{" "}
